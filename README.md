@@ -74,7 +74,7 @@ sudo chmod 644 /home/grader/.ssh/authorized_keys
 sudo nano /etc/ssh/sshd_config
 ```
 
-Change the port *22 to 2200* and add *AllowsUsers grader* in the sshd config file
+Change the port `22 to 2200` and add `AllowsUsers grader` in the sshd config file
 
 Now restart the ssh
 
