@@ -44,29 +44,29 @@
     ```
 3. Change the Permissions to the .ssh folder and authorized_keys
 
-```
-sudo chown grader /home/grader/.ssh
-```
+    ```
+    sudo chown grader /home/grader/.ssh
+    ```
 
-```
-sudo chgrp grader /home/grader/.ssh
-```
+    ```
+    sudo chgrp grader /home/grader/.ssh
+    ```
 
-```
-sudo chown grader /home/grader/.ssh/authorized_keys
-```
+    ```
+    sudo chown grader /home/grader/.ssh/authorized_keys
+    ```
 
-```
-sudo chgrp grader /home/grader/.ssh/authorized_keys
-```
+    ```
+    sudo chgrp grader /home/grader/.ssh/authorized_keys
+    ```
 
-```
-sudo chmod 700 /home/grader/.ssh
-```
+    ```
+    sudo chmod 700 /home/grader/.ssh
+    ```
 
-```
-sudo chmod 644 /home/grader/.ssh/authorized_keys
-```
+    ```
+    sudo chmod 644 /home/grader/.ssh/authorized_keys
+    ```
 
 ### 3 - Change the SSH port from 22 to 2200 and AllowsUsers to login
     
