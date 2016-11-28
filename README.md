@@ -11,14 +11,17 @@
 
 1. Download Private Key [here](blob:https://www.udacity.com/95349ac3-5488-4aa4-aedf-21febdaac080)
 2. Move the private key file into the folder ~/.ssh
+
     ```
     mv ~/Downloads/udacity_key.rsa ~/.ssh/
     ```
 3. Secure the key with
+
     ```
     chmod 600 ~/.ssh/udacity_key.rsa
     ```
 4. Log into root
+
     ```
     ssh -i ~/.ssh/udacity_key.rsa root@35.160.72.118
     ```
@@ -34,22 +37,28 @@
     sudo cp ~/.ssh/authorized_keys /home/grader/.ssh/authorized_keys
     ```
 3. Change the Permissions to the .ssh folder and authorized_keys
+
     ```bash
     sudo chown grader /home/grader/.ssh
     ```
+
     ```bash
     sudo chgrp grader /home/grader/.ssh
-    ```    
+    ```
+
     ```bash
     sudo chown grader /home/grader/.ssh/authorized_keys
     ```
+
     ```bash
     sudo chgrp grader /home/grader/.ssh/authorized_keys
-    ``` 
+    ```
+
     ```bash
     sudo chmod 700 /home/grader/.ssh
     ```
+
     ```bash
     sudo chmod 644 /home/grader/.ssh/authorized_keys
     ``` 
-    
+
