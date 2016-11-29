@@ -9,7 +9,7 @@
 
 ### SSH access to the instance
 
-1. Download Private Key [here](blob:https://www.udacity.com/95349ac3-5488-4aa4-aedf-21febdaac080)
+1. Download Private Key
 2. Move the private key file into the folder ~/.ssh
 
     ```
