@@ -151,7 +151,7 @@ sudo nano /etc/sudoers.d/grader
 Add the following line to that file
 
 ```
-grader ALL=(ALL:ALL) NOPASSWD:ALL
+grader ALL=(ALL:ALL) ALL
 ```
 
 save and exit.
@@ -162,6 +162,10 @@ Enter the following command to install updates
 
 ```
 sudo apt-get update 
+```
+
+```
+sudo apt-get upgrade
 ```
 
 ### Login as Grader User
