@@ -299,17 +299,17 @@ application.secret_key = 's!e@c#r$e%t'
 
 ```
 
-### Install and configure Postgresql Database and python ORM sqlachemy
+### Install and configure Postgresql Database and python ORM sqlalchemy
 
 1. Install Posgresql and python-psycopg2
 
     ```
     sudo apt-get install postgresql python-psycopg2
     ```
-2. Install python ORM sqlachemy.
+2. Install python ORM sqlalchemy.
 
     ```
-    sudo apt-get install python-sqlachemy
+    sudo apt-get install python-sqlalchemy
     ```
 3. Create user catalog for Posgresql db
 
