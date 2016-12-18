@@ -181,7 +181,7 @@ sudo ssh -i ~/.ssh/udacity_key.rsa grader@35.160.72.118
 1. Install apache2
 
     ```
-    sudo apt-get install git
+    sudo apt-get install apache2
     ```
 2. Install mod-wsgi
 
