@@ -314,7 +314,7 @@ application.secret_key = 's!e@c#r$e%t'
 3. Create user catalog for Posgresql db
 
     ```
-    sudo su - postgresql
+    sudo su - postgres
     ```
 
     ```
